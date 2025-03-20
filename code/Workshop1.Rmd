@@ -34,7 +34,7 @@ summary(mpg)
 # Create first plot
 ```{r}
 ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy)) #added 'l' in disp 
+  geom_point(mapping = aes(x = displ, y = hwy)) #"l" added to displ
 ```
 
 The plot shows a negative relationship between engine size (displ) and fuel efficiency (hwy). In other words, cars with big engines use more fuel. What does this say about fuel efficiency and engine size?
@@ -45,7 +45,7 @@ The plot shows a negative relationship between engine size (displ) and fuel effi
 What happens if we just try to run ggplot on its own?
 ```{r}
 ggplot() 
-# Or with just the data specified?            #Nothing comes up on the plot, its blank
+# Or with just the data specified?   #Nothing comes up on the plot, its blank
 ggplot(data = mpg)
 ```
 
